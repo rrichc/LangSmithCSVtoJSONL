@@ -1,6 +1,7 @@
 # LangSmithCSVtoJSONL
 
 Converts the CSV exports from LangSmith datasets to the OpenAI Fine Tuning JSONL format.
+Currently handles tools by converting to the 'functions' legacy format as currently required by OpenAI
 
 To run:
 1. Clone down the repo and `npm install`
